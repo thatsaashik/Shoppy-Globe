@@ -1,1 +1,0 @@
-import{r as e}from"./index-DYaSE9vP.js";const h=a=>{const[s,r]=e.useState(null),[o,c]=e.useState(!0),[n,u]=e.useState(null);return e.useEffect(()=>{(async()=>{try{const t=await fetch(a);if(!t.ok)throw new Error("Failed to fetch data.");const f=await t.json();r(f)}catch(t){u(t.message)}finally{c(!1)}})()},[a]),{data:s,loading:o,error:n}};export{h as u};
