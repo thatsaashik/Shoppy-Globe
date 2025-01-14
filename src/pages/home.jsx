@@ -20,9 +20,9 @@ const Home = () => {
         />
 
         {/* Overlay Content */}
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
-          <h2 className="text-5xl font-bold mb-4">Welcome to ShoppyGlobe!</h2>
-          <p className="text-lg mb-6 text-center px-8">
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white px-4">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-center">Welcome to ShoppyGlobe!</h2>
+          <p className="text-lg sm:text-xl mb-6 text-center px-4 sm:px-8">
             Discover a wide range of products curated just for you. Shop now and experience the best deals.
           </p>
           <button
